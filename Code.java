@@ -1,5 +1,5 @@
 //Dùng Chromedriver.exe 
-    String CodeCmd = "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --profile-directory=\"Default\" --remote-debugging-port=1998 -- \"%1\"";
+    String CodeCmd = "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --profile-directory=\"Default\" --remote-debugging-port=1999 -- \"%1\"";
     ChromeDriverService service = new ChromeDriverService.Builder().usingDriverExecutable(new File("F:\\ProjectJava\\BotViewYoutube\\BotViewYoutube\\chromedriver.exe")).build();
     System.setProperty("webdriver.chrome.driver", "F:\\ProjectJava\\BotViewYoutube\\BotViewYoutube\\chromedriver.exe");
     ChromeOptions options = new ChromeOptions();
