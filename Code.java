@@ -9,7 +9,7 @@
     driver.Get("https://www.google.com.vn/");
 
 //Code Chạy gpmdriver.exe
-String codeGMLogin=    "F:\ProjectJava\Change Chrome Selenium Webdriver\GPMLogin_v139\GPMLogin.exe" --mode=open --profile_id=tegk7ozquvg5dmhim8iy1qenanwf2ccwsbac2rqib5ia07n2t5 --remote-port=1999
+    String codeGMLogin=  "F:\ProjectJava\Change Chrome Selenium Webdriver\GPMLogin_v139\GPMLogin.exe" --mode=open --profile_id=tegk7ozquvg5dmhim8iy1qenanwf2ccwsbac2rqib5ia07n2t5 --remote-port=1999
     System.setProperty("webdriver.chrome.driver", "F:\\ProjectJava\\Change Chrome Selenium Webdriver\\GPMLogin_v139\\gpmdriver.exe");
     File file = new File("F:\\ProjectJava\\Change Chrome Selenium Webdriver\\GPMLogin_v139\\gpmdriver.exe");
     ChromeDriverService service = new ChromeDriverService.Builder().usingDriverExecutable(file).build();
